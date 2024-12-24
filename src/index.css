@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cursor-minimal{
+    * {
+      cursor: url("/minimal-cursor.png") 12 12, auto;
+    }
+  }
+

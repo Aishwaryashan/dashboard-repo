@@ -1,0 +1,12 @@
+/* CustomCursor.css */
+.custom-cursor {
+    position: fixed;
+    width: 24px;
+    height: 24px;
+    background: url("/minimal-cursor.png") no-repeat center center;
+    background-size: contain;
+    pointer-events: none; /* Ensures it doesn't block interactions */
+    opacity: 0.5; /* Adjust the opacity here */
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+  }
